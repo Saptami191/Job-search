@@ -1,0 +1,2 @@
+job_id,title,company,location,description,url,source,posted_date,eligible_countries,experience
+example-001,Backend Engineer,Example Company,Remote India,"Build APIs with Python SQL and Docker.",https://example.com/jobs/example-001,Company career page,2026-01-01,India;Worldwide,0-2 years

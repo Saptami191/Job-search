@@ -1,0 +1,47 @@
+{
+  "target_titles": [
+    "Backend Engineer",
+    "Software Engineer",
+    "Platform Engineer"
+  ],
+  "candidate_location": "India",
+  "remote_preferences": [
+    "Remote India",
+    "Worldwide remote"
+  ],
+  "employment_types": [
+    "Internship",
+    "Full-time",
+    "Graduate"
+  ],
+  "experience_max_years": 2,
+  "required_skills": [
+    "Python",
+    "SQL",
+    "REST APIs",
+    "Docker"
+  ],
+  "preferred_skills": [
+    "AWS",
+    "PostgreSQL",
+    "Redis"
+  ],
+  "avoid_keywords": [
+    "Unpaid",
+    "Senior",
+    "Principal",
+    "Manager"
+  ],
+  "eligible_country_terms": [
+    "india",
+    "worldwide",
+    "global remote",
+    "anywhere",
+    "remote"
+  ],
+  "minimum_score": 15,
+  "require_india_eligibility": true,
+  "require_human_approval_before_submit": true,
+  "llm_provider": "openai",
+  "llm_model": "gpt-4o"
+}

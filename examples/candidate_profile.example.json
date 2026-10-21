@@ -1,0 +1,31 @@
+{
+  "name": "Your Name",
+  "email": "you@example.com",
+  "phone": "+00 0000000000",
+  "location": "Your City, Country",
+  "linkedin": "https://www.linkedin.com/in/your-profile/",
+  "github": "https://github.com/your-username",
+  "work_authorization": {
+    "eligible_in_india": false,
+    "requires_sponsorship_india": false,
+    "worldwide_remote_allowed": false
+  },
+  "education": [
+    {
+      "degree": "Your degree",
+      "institution": "Your institution",
+      "graduation_year": "2027",
+      "location": "Your City, Country",
+      "duration": "2023 -- 2027"
+    }
+  ],
+  "experience_years": 1,
+  "skills": {
+    "programming_languages": ["Python", "JavaScript"],
+    "backend_data_layer": ["REST APIs", "SQL"],
+    "tooling_infrastructure": ["Git", "Docker"],
+    "cs_theory": ["Data Structures"]
+  },
+  "projects": [],
+  "verified_screening_answers": {}
+}

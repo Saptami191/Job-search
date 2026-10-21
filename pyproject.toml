@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "job-scout"
+version = "0.1.0"
+description = "Human-in-the-loop job discovery, matching, and application preparation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+authors = [
+  { name = "Job Scout contributors" }
+]
+keywords = ["jobs", "career", "automation", "resume", "job-search"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: End Users/Desktop",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+  "openpyxl>=3.1.5",
+  "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+llm = [
+  "langchain-core>=0.2.0",
+  "langchain-openai>=0.1.0",
+]
+browser = [
+  "langchain-core>=0.2.0",
+  "langchain-openai>=0.1.0",
+  "browser-use>=0.1.0; python_version < '3.14'",
+]
+dev = [
+  "build>=1.2.0",
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+job-scout = "job_scout.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["job_scout*"]
+
+[tool.setuptools]
+include-package-data = true
