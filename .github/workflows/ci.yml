@@ -22,4 +22,4 @@ jobs:
       - name: Compile package
         run: python -m compileall -q job_scout
       - name: Build distributions
-        run: python -m build --no-isolation
+        run: python -m build
