@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "job-scout"
+name = "job-scout-saptami191"
 version = "0.1.0"
 description = "Human-in-the-loop job discovery, matching, and application preparation"
 readme = "README.md"

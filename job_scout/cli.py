@@ -254,7 +254,7 @@ def cmd_inspect(url: str):
 
 def cmd_daily():
     print("=" * 60)
-    print(" DAILY JOB SCOUT RUNNER - TITHI'S BACKEND & INFRA SEARCH")
+    print(" DAILY JOB SCOUT RUNNER")
     print("=" * 60)
     print("\n1. Importing new listings from jobs.csv...")
     cmd_import("jobs.csv")
